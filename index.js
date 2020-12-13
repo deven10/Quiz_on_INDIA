@@ -142,7 +142,7 @@ for(var i=0; i<QnA.length; i++){
 
 console.log(chalk.green("Thankyou "+user+" for Playing!! \nYour total score is " + score));
 
-//Highscores 
+//Highscorers
 var topScorer = {
     name: "Deven",
     scored: 5
@@ -150,8 +150,8 @@ var topScorer = {
 
 
 if(score >= topScorer.scored){
-  console.log(chalk.green("\nCongratulations you have beaten our high scorer '" +topScorer.name+ "', Keep it up!"));
+  console.log(chalk.green("\nCongratulations you are our new High Scorer, Keep it up!"));
 }
 else{
-  console.log(chalk.yellow("Well played, Try to beat our high scorer '" +topScorer.name+"' who has scored "+topScorer.scored));
+  console.log(chalk.yellow("Well played, Try to beat our high scorer '"+topScorer.name+"' \nHis highest score is '"+topScorer.scored+"'"));
 }
